@@ -24,3 +24,24 @@ Cross-browser:
 - Firefox: background.scripts fallback in same manifest
 
 Tech: HTML/CSS/JS · chrome.storage.local · chrome.alarms · chrome.notifications
+
+How to install
+For Chrome:
+
+Unzip the file
+Go to chrome://extensions
+Enable Developer mode (top right toggle)
+Click Load unpacked → select the devtask-extension folder
+
+For Firefox:
+
+Go to about:debugging → This Firefox
+Click Load Temporary Add-on
+Select the manifest.json file inside the folder
+
+What's planned for next (future features)
+
+Export tasks to JSON / markdown
+Recurring tasks
+Pomodoro timer linked to a task
+Stats dashboard (tasks done per week per category)
